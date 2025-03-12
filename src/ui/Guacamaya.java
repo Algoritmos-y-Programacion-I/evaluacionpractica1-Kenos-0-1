@@ -52,6 +52,7 @@ public class Guacamaya {
 
             switch (opcion) {
                 case 1:
+                    System.out.println("Ingrese el Precio de lo que ha comprado");
                     solicitarDatos();
                     break;
                 case 2:
@@ -100,23 +101,40 @@ public class Guacamaya {
 
     }
 
+    /*En este metodo se le solicitan los datos al usuario respecto al precio y la cantidad 
+    */
     public static void solicitarDatos(){
+
+        for(i = 0; i <= referencias; i++){
+
+            System.out.println("Ingrese el valor de la referencia");
+            double precios = reader.nextDouble();
+            System.out.println("Ingrese la cantidad de la referencia");
+            int unidades = reader.nextInt();
+
+        }
 
      
     }
 
+    /*En este metodo se calcula el total de las unidades vendidas durante el día 
+    */
     public static int calcularTotalUnidadesVendidas(){
+
+        
 
         return 0;
 
     }
-
+    /*En este metodo se calcula el promedio de las referencias de productos vendidas durante el día  
+    */
     public static double calcularPrecioPromedio(){
 
         return 0;
 
     }
-
+    /*En este metodo se calcula el valor total de las ventas o dinero recaudado durante el día
+    */
     public static double calcularVentasTotales(){
 
         return 0;
